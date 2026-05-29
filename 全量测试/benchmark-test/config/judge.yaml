@@ -1,0 +1,86 @@
+# LLM Judge配置 (GLM-5.1)
+judge:
+  name: GLM-5.1
+  provider: zhipu
+  api_base: https://open.bigmodel.cn/api/paas/v4
+  model_id: GLM-5.1
+  max_retries: 3
+  timeout: 60
+  temperature: 0.1  # 低温度保证评判稳定性
+
+# 评测配置
+evaluation:
+  # 需要LLM评判的题型
+  llm_judge_tasks:
+    - npee_noun      # 名词解释: 0-6分
+    - npee_qa        # 问答: 0-10分
+    - npee_discussion # 讨论: 0-10分
+
+  # 并发控制
+  max_concurrent_per_model: 3
+  max_concurrent_judge: 5
+  max_concurrent_models: 2  # 同时测试的模型数量
+
+  # Judge缓存配置
+  enable_judge_cache: true  # 启用持久化Judge缓存
+  judge_cache_dir: null     # 缓存目录，null表示默认路径
+
+  # 批量评判配置
+  enable_batch_judge: true  # 启用批量评判
+  judge_batch_size: 5       # 批量大小
+
+  # 成本控制
+  max_tokens_per_request: 4000
+
+# 评分标准
+scoring:
+  noun:
+    max_score: 6
+    dimensions:
+      - name: 核心定义
+        weight: 2
+        description: 是否正确解释了该地理概念的本质
+      - name: 关键要素
+        weight: 2
+        description: 是否涵盖了重要特征/数值/条件
+      - name: 表述清晰
+        weight: 2
+        description: 语言是否准确、专业、易懂
+
+  qa:
+    max_score: 10
+    dimensions:
+      - name: 准确性
+        weight: 2
+        description: 知识点是否正确
+      - name: 完整性
+        weight: 2
+        description: 是否覆盖了参考答案的主要要点
+      - name: 逻辑性
+        weight: 2
+        description: 论述是否有条理、因果清晰
+      - name: 深度
+        weight: 2
+        description: 是否体现了对概念的深入理解
+      - name: 专业性
+        weight: 2
+        description: 术语使用是否准确、表述是否规范
+
+  discussion:
+    max_score: 10
+    dimensions:
+      - name: 准确性
+        weight: 2
+        description: 知识点是否正确
+      - name: 完整性
+        weight: 2
+        description: 是否覆盖了参考答案的主要要点
+      - name: 逻辑性
+        weight: 2
+        description: 论述是否有条理、因果清晰
+      - name: 深度
+        weight: 2
+        description: 是否体现了对概念的深入理解
+      - name: 专业性
+        weight: 2
+        description: 术语使用是否准确、表述是否规范

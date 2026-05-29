@@ -1,0 +1,56 @@
+# 待测模型配置 - 交替顺序避免API资源竞争
+models:
+  # 第1组: newAPI + 百炼
+  - name: qwen3.5-27b
+    provider: custom
+    api_base: http://newapi.geos3ai.com/v1
+    model_id: qwen/qwen3.5-27b
+
+  - name: qwen3.6-35b-a3b
+    provider: qwen
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model_id: qwen-plus-latest
+
+  # 第2组: newAPI + 百炼
+  - name: kimi-k2.5
+    provider: custom
+    api_base: http://newapi.geos3ai.com/v1
+    model_id: moonshotai/kimi-k2.5
+
+  - name: qwen3.5-397b-a17b
+    provider: qwen
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model_id: qwen-plus-latest
+
+  # 第3组: newAPI + 百炼
+  - name: deepseek-v3.2
+    provider: custom
+    api_base: http://newapi.geos3ai.com/v1
+    model_id: deepseek/deepseek-v3.2
+
+  - name: qwen3-32b
+    provider: qwen
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model_id: qwen-plus
+
+  # 第4组: newAPI + 百炼
+  - name: claude-opus-4.6
+    provider: custom
+    api_base: http://newapi.geos3ai.com/v1
+    model_id: anthropic/claude-opus-4.6
+
+  - name: qwen3.6-plus
+    provider: qwen
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model_id: qwen-plus
+
+  # 第5组: newAPI + 百炼
+  - name: gemini-3-pro-preview
+    provider: custom
+    api_base: http://newapi.geos3ai.com/v1
+    model_id: google/gemini-3.1-flash-lite-preview
+
+  - name: qwen3.5-plus
+    provider: qwen
+    api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model_id: qwen-plus

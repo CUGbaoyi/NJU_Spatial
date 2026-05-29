@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 run_npee_subjective.py)",
+      "Bash(pkill -f \"run_npee\")",
+      "Bash(python3 /Users/chenao/Desktop/全量测试/benchmark-test/run_npee_subjective.py)",
+      "Bash(pkill -f \"run_npee_subjective\")",
+      "Bash(rm /Users/chenao/Desktop/全量测试/benchmark-test/results/*.jsonl)",
+      "Bash(rm /Users/chenao/Desktop/全量测试/benchmark-test/results/*_checkpoint.json)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 verify.py)",
+      "Bash(python3 -m src.run --models \"DeepSeek:deepseek:https://api.deepseek.com\" --judge \"DeepSeek:deepseek:https://api.deepseek.com\" --datasets ap_study --max-questions 3 --quick)",
+      "Bash(python3 src/run.py --models \"DeepSeek:deepseek:https://api.deepseek.com\" --judge \"DeepSeek:deepseek:https://api.deepseek.com\" --datasets ap_study --max-questions 3 --quick)",
+      "Bash(kill 65287)",
+      "Bash(chmod +x /Users/chenao/Desktop/全量测试/benchmark-test/run_eval.py)",
+      "Bash(python3 -m py_compile src/async_api.py src/checkpoint.py src/evaluators.py src/eval_visualizer.py src/run_eval.py)",
+      "Bash(python3 -m py_compile /Users/chenao/Desktop/全量测试/benchmark-test/src/async_api.py /Users/chenao/Desktop/全量测试/benchmark-test/src/checkpoint.py /Users/chenao/Desktop/全量测试/benchmark-test/src/evaluators.py /Users/chenao/Desktop/全量测试/benchmark-test/src/eval_visualizer.py /Users/chenao/Desktop/全量测试/benchmark-test/src/run_eval.py)",
+      "Bash(mv evaluators.py eval_scorers.py)",
+      "Bash(mv eval_visualizer.py eval_viz.py)",
+      "Bash(python3 -c \"import sys; sys.path.insert\\(0, 'src'\\); from eval_scorers import score_question; print\\('Import OK'\\)\")",
+      "Bash(kill 69547)",
+      "Bash(kill 69956)",
+      "Bash(kill 70438)",
+      "Bash(python3 /Users/chenao/Desktop/全量测试/benchmark-test/run_eval.py)",
+      "Bash(ps -p 70690 -o pid,stat,%cpu,%mem,etime,command)",
+      "Bash(kill 70690)",
+      "Bash(kill 70823)",
+      "Bash(kill 71002)",
+      "Bash(kill 71269)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill *)",
+      "Bash(chmod +x /Users/chenao/Desktop/全量测试/benchmark-test/run_selected_models.py)",
+      "Bash(python3 gen_viz.py)",
+      "Bash(python3 /Users/chenao/Desktop/全量测试/benchmark-test/gen_viz.py)",
+      "Bash(python3 run_selected_models.py)",
+      "Bash(tee test_run.log)",
+      "Bash(echo \"测试已在后台运行，PID: $!\")",
+      "Bash(python3 /Users/chenao/Desktop/全量测试/benchmark-test/run_selected_models.py)",
+      "Bash(python3 run_4_models.py)"
+    ],
+    "additionalDirectories": [
+      "/Users/chenao/Desktop/全量测试/results",
+      "/Users/chenao/Desktop/全量测试/benchmark-test/results",
+      "/Users/chenao/Desktop/全量测试/benchmark-test/reports"
+    ]
+  }
+}

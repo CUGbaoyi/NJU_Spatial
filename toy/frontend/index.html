@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo-AI Expert System | 智能地理坐标专家系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- 高德地图安全密钥配置 -->
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode: '4832f3e6f073ca68161c89d03dc5bae7',
+        }
+    </script>
+    <!-- 高德地图 JavaScript API 2.0 -->
+    <script src="https://webapi.amap.com/maps?v=2.0&key=b3849009b91c04ef3541c555b4146376"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 左侧面板 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>🌍 Geo-AI Expert</h1>
+                <p class="subtitle">智能地理坐标专家系统</p>
+            </div>
+
+            <!-- AI 聊天区域 -->
+            <div class="chat-section">
+                <div class="section-header">
+                    <span class="icon">💬</span>
+                    <h2>AI 智能助手</h2>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message system">
+                        <div class="message-content">
+                            你好！我是地理坐标转换助手。<br>
+                            支持 WGS84、GCJ02、BD09 坐标系转换。<br>
+                            <small style="color:var(--text-secondary)">注意：坐标转换只在中国境内有效</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <textarea id="chatInput" placeholder="例如：把 116.404, 39.915 从高德坐标转成百度坐标" rows="2"></textarea>
+                    <button id="sendBtn" class="btn-primary">发送</button>
+                </div>
+            </div>
+
+            <!-- 快速转换工具 -->
+            <div class="convert-section">
+                <div class="section-header">
+                    <span class="icon">🔄</span>
+                    <h2>快速转换</h2>
+                </div>
+
+                <div class="convert-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>经度</label>
+                            <input type="number" id="lngInput" placeholder="116.404" step="0.000001" min="-180" max="180" value="116.404">
+                        </div>
+                        <div class="form-group">
+                            <label>纬度</label>
+                            <input type="number" id="latInput" placeholder="39.915" step="0.000001" min="-90" max="90" value="39.915">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>源坐标系</label>
+                            <select id="fromCoord">
+                                <option value="wgs84">WGS84 (GPS)</option>
+                                <option value="gcj02" selected>GCJ02 (高德)</option>
+                                <option value="bd09">BD09 (百度)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>目标坐标系</label>
+                            <select id="toCoord">
+                                <option value="wgs84" selected>WGS84 (GPS)</option>
+                                <option value="gcj02">GCJ02 (高德)</option>
+                                <option value="bd09">BD09 (百度)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="convertBtn" class="btn-primary full-width">
+                        🔄 转换坐标
+                    </button>
+
+                    <div id="convertResult" class="convert-result hidden">
+                        <div class="result-item">
+                            <span class="label">原始坐标:</span>
+                            <span class="value" id="originalCoord">-</span>
+                        </div>
+                        <div class="result-item success">
+                            <span class="label">转换结果:</span>
+                            <span class="value" id="convertedCoord">-</span>
+                        </div>
+                        <div id="convertNote" class="result-note hidden"></div>
+                        <button id="addMarkerBtn" class="btn-small">📍 在地图上标注</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Excel 批量转换 -->
+            <div class="excel-section">
+                <div class="section-header">
+                    <span class="icon">📊</span>
+                    <h2>Excel 批量转换</h2>
+                </div>
+
+                <div class="upload-area" id="uploadArea">
+                    <input type="file" id="excelFile" accept=".xlsx,.xls" hidden>
+                    <div class="upload-content">
+                        <div class="upload-icon">📁</div>
+                        <p>点击或拖拽上传 Excel</p>
+                    </div>
+                </div>
+
+                <div id="uploadProgress" class="upload-progress hidden">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-text" id="progressText">正在处理...</div>
+                </div>
+
+                <div id="uploadResult" class="upload-result hidden">
+                    <div class="result-summary">✅ <span id="uploadSummary">转换完成！</span></div>
+                    <div class="download-buttons">
+                        <button class="btn-download" data-format="excel">📊 Excel</button>
+                        <button class="btn-download" data-format="geojson">🗺️ GeoJSON</button>
+                        <button class="btn-download" data-format="kml">🌍 KML</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 右侧：高德地图 -->
+        <main class="map-container">
+            <div class="map-controls">
+                <div class="control-group">
+                    <label>地图类型:</label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="useSatellite"> 使用卫星图
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showRoadNet" checked> 显示路网
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showLabels" checked> 显示地名
+                    </label>
+                </div>
+                <div class="control-group">
+                    <button class="btn-small" onclick="clearMarkers()">🗑️ 清除标注</button>
+                </div>
+            </div>
+            <div id="map" class="map"></div>
+        </main>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

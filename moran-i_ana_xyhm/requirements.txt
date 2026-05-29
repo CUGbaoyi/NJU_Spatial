@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+geopandas
+esda
+libpysal
+xlrd
+openpyxl

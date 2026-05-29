@@ -1,0 +1,2 @@
+﻿year,n_cities,weights_method,moran_i,expected_i,z_score,p_value,seed,hightech_column,city_column,code_column,standardized_rows,raw_rows
+2022,272,queen,0.24260497562514516,-0.0036900369003690036,6.406910941684174,0.001,42,高新技术企业数,city,行政区划代码,283,283

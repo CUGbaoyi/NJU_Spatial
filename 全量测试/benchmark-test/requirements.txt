@@ -1,0 +1,11 @@
+# GeoBenchmark 依赖
+
+# API客户端
+openai>=1.50.0
+zhipuai>=2.1.0
+
+# 数据处理
+pyyaml>=6.0
+
+# 加载.env文件
+python-dotenv>=1.0.0

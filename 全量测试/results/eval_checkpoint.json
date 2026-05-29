@@ -1,0 +1,4064 @@
+{
+  "qwen3.6-35b-a3b": {
+    "npee_choice_1": {
+      "question_id": "npee_choice_1",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.359122"
+    },
+    "npee_choice_4": {
+      "question_id": "npee_choice_4",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.410393"
+    },
+    "npee_choice_0": {
+      "question_id": "npee_choice_0",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.418338"
+    },
+    "npee_choice_2": {
+      "question_id": "npee_choice_2",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.440320"
+    },
+    "npee_choice_3": {
+      "question_id": "npee_choice_3",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.456468"
+    },
+    "npee_choice_6": {
+      "question_id": "npee_choice_6",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.826989"
+    },
+    "npee_choice_5": {
+      "question_id": "npee_choice_5",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:50.828961"
+    },
+    "npee_choice_9": {
+      "question_id": "npee_choice_9",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.008574"
+    },
+    "npee_choice_8": {
+      "question_id": "npee_choice_8",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.019141"
+    },
+    "npee_choice_7": {
+      "question_id": "npee_choice_7",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.209259"
+    },
+    "npee_choice_11": {
+      "question_id": "npee_choice_11",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.253377"
+    },
+    "npee_choice_10": {
+      "question_id": "npee_choice_10",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.294773"
+    },
+    "npee_choice_14": {
+      "question_id": "npee_choice_14",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.857000"
+    },
+    "npee_choice_13": {
+      "question_id": "npee_choice_13",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.859924"
+    },
+    "npee_choice_15": {
+      "question_id": "npee_choice_15",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.879043"
+    },
+    "npee_choice_16": {
+      "question_id": "npee_choice_16",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.888158"
+    },
+    "npee_choice_12": {
+      "question_id": "npee_choice_12",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:51.913785"
+    },
+    "npee_choice_18": {
+      "question_id": "npee_choice_18",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.242159"
+    },
+    "npee_choice_17": {
+      "question_id": "npee_choice_17",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.311047"
+    },
+    "npee_choice_20": {
+      "question_id": "npee_choice_20",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.357491"
+    },
+    "npee_choice_21": {
+      "question_id": "npee_choice_21",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.456793"
+    },
+    "npee_choice_19": {
+      "question_id": "npee_choice_19",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.486382"
+    },
+    "npee_choice_22": {
+      "question_id": "npee_choice_22",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.740854"
+    },
+    "npee_choice_24": {
+      "question_id": "npee_choice_24",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.744022"
+    },
+    "npee_choice_23": {
+      "question_id": "npee_choice_23",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.764543"
+    },
+    "npee_choice_25": {
+      "question_id": "npee_choice_25",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:52.907497"
+    },
+    "npee_choice_26": {
+      "question_id": "npee_choice_26",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:53.001755"
+    },
+    "npee_choice_28": {
+      "question_id": "npee_choice_28",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:53.199796"
+    },
+    "npee_choice_29": {
+      "question_id": "npee_choice_29",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:53.202787"
+    },
+    "npee_choice_27": {
+      "question_id": "npee_choice_27",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T17:59:53.270829"
+    },
+    "npee_choice_33": {
+      "question_id": "npee_choice_33",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:09.884375"
+    },
+    "npee_choice_34": {
+      "question_id": "npee_choice_34",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:09.887467"
+    },
+    "npee_choice_32": {
+      "question_id": "npee_choice_32",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:09.979379"
+    },
+    "npee_choice_30": {
+      "question_id": "npee_choice_30",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:10.170428"
+    },
+    "npee_choice_36": {
+      "question_id": "npee_choice_36",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:10.253644"
+    },
+    "npee_choice_35": {
+      "question_id": "npee_choice_35",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:10.474158"
+    },
+    "npee_choice_37": {
+      "question_id": "npee_choice_37",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:10.478004"
+    },
+    "npee_choice_40": {
+      "question_id": "npee_choice_40",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:11.285557"
+    },
+    "npee_choice_39": {
+      "question_id": "npee_choice_39",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:11.289491"
+    },
+    "npee_choice_41": {
+      "question_id": "npee_choice_41",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:11.291426"
+    },
+    "npee_choice_38": {
+      "question_id": "npee_choice_38",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:11.293182"
+    },
+    "npee_choice_44": {
+      "question_id": "npee_choice_44",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:12.390947"
+    },
+    "npee_choice_42": {
+      "question_id": "npee_choice_42",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:12.561277"
+    },
+    "npee_choice_45": {
+      "question_id": "npee_choice_45",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:12.725341"
+    },
+    "npee_choice_46": {
+      "question_id": "npee_choice_46",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:12.963225"
+    },
+    "npee_choice_47": {
+      "question_id": "npee_choice_47",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:13.206350"
+    },
+    "npee_choice_48": {
+      "question_id": "npee_choice_48",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:13.363231"
+    },
+    "npee_choice_49": {
+      "question_id": "npee_choice_49",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:13.613468"
+    },
+    "npee_choice_51": {
+      "question_id": "npee_choice_51",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:13.759656"
+    },
+    "npee_choice_50": {
+      "question_id": "npee_choice_50",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:13.924190"
+    },
+    "npee_choice_52": {
+      "question_id": "npee_choice_52",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.049394"
+    },
+    "npee_choice_53": {
+      "question_id": "npee_choice_53",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.263374"
+    },
+    "npee_choice_55": {
+      "question_id": "npee_choice_55",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.482278"
+    },
+    "npee_choice_54": {
+      "question_id": "npee_choice_54",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.556255"
+    },
+    "npee_choice_56": {
+      "question_id": "npee_choice_56",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.778808"
+    },
+    "npee_choice_57": {
+      "question_id": "npee_choice_57",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.979423"
+    },
+    "npee_choice_58": {
+      "question_id": "npee_choice_58",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:14.987633"
+    },
+    "npee_choice_60": {
+      "question_id": "npee_choice_60",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:15.586888"
+    },
+    "npee_choice_59": {
+      "question_id": "npee_choice_59",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:15.592736"
+    },
+    "npee_choice_61": {
+      "question_id": "npee_choice_61",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:15.609573"
+    },
+    "npee_choice_62": {
+      "question_id": "npee_choice_62",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.256379"
+    },
+    "npee_choice_63": {
+      "question_id": "npee_choice_63",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.260856"
+    },
+    "npee_choice_64": {
+      "question_id": "npee_choice_64",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.262728"
+    },
+    "npee_choice_67": {
+      "question_id": "npee_choice_67",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.747948"
+    },
+    "npee_choice_66": {
+      "question_id": "npee_choice_66",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.754906"
+    },
+    "npee_choice_65": {
+      "question_id": "npee_choice_65",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:16.919825"
+    },
+    "npee_choice_70": {
+      "question_id": "npee_choice_70",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B、C、D",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:17.429277"
+    },
+    "npee_choice_69": {
+      "question_id": "npee_choice_69",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:17.444409"
+    },
+    "npee_choice_68": {
+      "question_id": "npee_choice_68",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:17.478796"
+    },
+    "npee_choice_71": {
+      "question_id": "npee_choice_71",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.164026"
+    },
+    "npee_choice_72": {
+      "question_id": "npee_choice_72",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A、C、D",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.359020"
+    },
+    "npee_choice_73": {
+      "question_id": "npee_choice_73",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.386811"
+    },
+    "npee_choice_74": {
+      "question_id": "npee_choice_74",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.601196"
+    },
+    "npee_choice_76": {
+      "question_id": "npee_choice_76",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.982258"
+    },
+    "npee_choice_75": {
+      "question_id": "npee_choice_75",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A、B、C",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:18.995091"
+    },
+    "npee_choice_77": {
+      "question_id": "npee_choice_77",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:19.052847"
+    },
+    "npee_choice_80": {
+      "question_id": "npee_choice_80",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:19.504512"
+    },
+    "npee_choice_79": {
+      "question_id": "npee_choice_79",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:19.543526"
+    },
+    "npee_choice_78": {
+      "question_id": "npee_choice_78",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:19.547060"
+    },
+    "npee_choice_81": {
+      "question_id": "npee_choice_81",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:20.150613"
+    },
+    "npee_choice_83": {
+      "question_id": "npee_choice_83",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:20.211064"
+    },
+    "npee_choice_82": {
+      "question_id": "npee_choice_82",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:20.376117"
+    },
+    "npee_choice_86": {
+      "question_id": "npee_choice_86",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:22.713403"
+    },
+    "npee_choice_85": {
+      "question_id": "npee_choice_85",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:22.720563"
+    },
+    "npee_choice_84": {
+      "question_id": "npee_choice_84",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:22.804859"
+    },
+    "npee_choice_89": {
+      "question_id": "npee_choice_89",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:25.748155"
+    },
+    "npee_choice_88": {
+      "question_id": "npee_choice_88",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:25.784571"
+    },
+    "npee_choice_43": {
+      "question_id": "npee_choice_43",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:28.091577"
+    },
+    "npee_choice_92": {
+      "question_id": "npee_choice_92",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:28.615941"
+    },
+    "npee_choice_93": {
+      "question_id": "npee_choice_93",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:30.266506"
+    },
+    "npee_choice_94": {
+      "question_id": "npee_choice_94",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:30.812249"
+    },
+    "npee_choice_87": {
+      "question_id": "npee_choice_87",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:30.849737"
+    },
+    "npee_choice_96": {
+      "question_id": "npee_choice_96",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:31.431211"
+    },
+    "npee_choice_95": {
+      "question_id": "npee_choice_95",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:31.491706"
+    },
+    "npee_choice_97": {
+      "question_id": "npee_choice_97",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:32.115569"
+    },
+    "npee_choice_98": {
+      "question_id": "npee_choice_98",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:32.185920"
+    },
+    "npee_choice_99": {
+      "question_id": "npee_choice_99",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:33.808915"
+    },
+    "npee_choice_100": {
+      "question_id": "npee_choice_100",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:33.816153"
+    },
+    "npee_choice_102": {
+      "question_id": "npee_choice_102",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:34.572167"
+    },
+    "npee_choice_101": {
+      "question_id": "npee_choice_101",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:34.595340"
+    },
+    "npee_choice_104": {
+      "question_id": "npee_choice_104",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:35.175910"
+    },
+    "npee_choice_103": {
+      "question_id": "npee_choice_103",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:35.191452"
+    },
+    "npee_choice_105": {
+      "question_id": "npee_choice_105",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:35.803916"
+    },
+    "npee_choice_106": {
+      "question_id": "npee_choice_106",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:35.930724"
+    },
+    "npee_choice_108": {
+      "question_id": "npee_choice_108",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:36.547975"
+    },
+    "npee_choice_107": {
+      "question_id": "npee_choice_107",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:36.557393"
+    },
+    "npee_choice_91": {
+      "question_id": "npee_choice_91",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:38.811168"
+    },
+    "npee_choice_110": {
+      "question_id": "npee_choice_110",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:38.818251"
+    },
+    "npee_choice_90": {
+      "question_id": "npee_choice_90",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:38.864734"
+    },
+    "npee_choice_109": {
+      "question_id": "npee_choice_109",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:39.227459"
+    },
+    "npee_choice_112": {
+      "question_id": "npee_choice_112",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:39.256785"
+    },
+    "npee_choice_111": {
+      "question_id": "npee_choice_111",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:39.302971"
+    },
+    "npee_choice_115": {
+      "question_id": "npee_choice_115",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A、C、D",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:41.950662"
+    },
+    "npee_choice_116": {
+      "question_id": "npee_choice_116",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:41.955031"
+    },
+    "npee_choice_114": {
+      "question_id": "npee_choice_114",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:42.298686"
+    },
+    "npee_choice_118": {
+      "question_id": "npee_choice_118",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A、B、C",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:42.464417"
+    },
+    "npee_choice_119": {
+      "question_id": "npee_choice_119",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:42.752633"
+    },
+    "npee_choice_117": {
+      "question_id": "npee_choice_117",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:42.769779"
+    },
+    "npee_choice_122": {
+      "question_id": "npee_choice_122",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:45.242261"
+    },
+    "npee_choice_121": {
+      "question_id": "npee_choice_121",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:45.249832"
+    },
+    "npee_choice_120": {
+      "question_id": "npee_choice_120",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:45.253009"
+    },
+    "npee_choice_125": {
+      "question_id": "npee_choice_125",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:46.143174"
+    },
+    "npee_choice_124": {
+      "question_id": "npee_choice_124",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:46.151012"
+    },
+    "npee_choice_123": {
+      "question_id": "npee_choice_123",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:46.309420"
+    },
+    "npee_choice_127": {
+      "question_id": "npee_choice_127",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:46.699953"
+    },
+    "npee_choice_126": {
+      "question_id": "npee_choice_126",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:46.837984"
+    },
+    "npee_choice_128": {
+      "question_id": "npee_choice_128",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A B C D",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:47.836598"
+    },
+    "npee_choice_129": {
+      "question_id": "npee_choice_129",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:47.840053"
+    },
+    "npee_choice_130": {
+      "question_id": "npee_choice_130",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:47.843387"
+    },
+    "npee_choice_133": {
+      "question_id": "npee_choice_133",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:48.927657"
+    },
+    "npee_choice_131": {
+      "question_id": "npee_choice_131",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A, B, C",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:48.981086"
+    },
+    "npee_choice_132": {
+      "question_id": "npee_choice_132",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:48.986171"
+    },
+    "npee_choice_134": {
+      "question_id": "npee_choice_134",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:49.672093"
+    },
+    "npee_choice_136": {
+      "question_id": "npee_choice_136",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:49.682510"
+    },
+    "npee_choice_138": {
+      "question_id": "npee_choice_138",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.102077"
+    },
+    "npee_choice_137": {
+      "question_id": "npee_choice_137",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.156200"
+    },
+    "npee_choice_135": {
+      "question_id": "npee_choice_135",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.359981"
+    },
+    "npee_choice_139": {
+      "question_id": "npee_choice_139",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.565907"
+    },
+    "npee_choice_140": {
+      "question_id": "npee_choice_140",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.604834"
+    },
+    "npee_choice_141": {
+      "question_id": "npee_choice_141",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:50.817823"
+    },
+    "npee_choice_142": {
+      "question_id": "npee_choice_142",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:51.008890"
+    },
+    "npee_choice_143": {
+      "question_id": "npee_choice_143",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:51.077560"
+    },
+    "npee_choice_144": {
+      "question_id": "npee_choice_144",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:53.433792"
+    },
+    "npee_choice_146": {
+      "question_id": "npee_choice_146",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:53.636157"
+    },
+    "npee_choice_113": {
+      "question_id": "npee_choice_113",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B、C、D",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.214711"
+    },
+    "npee_choice_147": {
+      "question_id": "npee_choice_147",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.249240"
+    },
+    "npee_choice_148": {
+      "question_id": "npee_choice_148",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.548812"
+    },
+    "npee_choice_145": {
+      "question_id": "npee_choice_145",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.557695"
+    },
+    "npee_choice_150": {
+      "question_id": "npee_choice_150",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.625246"
+    },
+    "npee_choice_149": {
+      "question_id": "npee_choice_149",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:56.723686"
+    },
+    "npee_choice_152": {
+      "question_id": "npee_choice_152",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:57.544433"
+    },
+    "npee_choice_153": {
+      "question_id": "npee_choice_153",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:57.551018"
+    },
+    "npee_choice_151": {
+      "question_id": "npee_choice_151",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:57.555482"
+    },
+    "npee_choice_154": {
+      "question_id": "npee_choice_154",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:57.558236"
+    },
+    "npee_choice_155": {
+      "question_id": "npee_choice_155",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:58.498995"
+    },
+    "npee_choice_156": {
+      "question_id": "npee_choice_156",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:58.510306"
+    },
+    "npee_choice_158": {
+      "question_id": "npee_choice_158",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:58.516223"
+    },
+    "npee_choice_161": {
+      "question_id": "npee_choice_161",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:58.961606"
+    },
+    "npee_choice_159": {
+      "question_id": "npee_choice_159",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:59.029966"
+    },
+    "npee_choice_160": {
+      "question_id": "npee_choice_160",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:59.130067"
+    },
+    "npee_choice_162": {
+      "question_id": "npee_choice_162",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:59.387596"
+    },
+    "npee_choice_164": {
+      "question_id": "npee_choice_164",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:59.526441"
+    },
+    "npee_choice_163": {
+      "question_id": "npee_choice_163",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:00:59.768837"
+    },
+    "npee_choice_165": {
+      "question_id": "npee_choice_165",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:00.423618"
+    },
+    "npee_choice_166": {
+      "question_id": "npee_choice_166",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:00.430458"
+    },
+    "npee_choice_167": {
+      "question_id": "npee_choice_167",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:00.570715"
+    },
+    "npee_choice_168": {
+      "question_id": "npee_choice_168",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:00.816578"
+    },
+    "npee_choice_169": {
+      "question_id": "npee_choice_169",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:01.356429"
+    },
+    "npee_choice_170": {
+      "question_id": "npee_choice_170",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:01.362667"
+    },
+    "npee_choice_173": {
+      "question_id": "npee_choice_173",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "B",
+      "judge_reason": "模型回答: B, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:01.861703"
+    },
+    "npee_choice_172": {
+      "question_id": "npee_choice_172",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.031848"
+    },
+    "npee_choice_174": {
+      "question_id": "npee_choice_174",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.264870"
+    },
+    "npee_choice_157": {
+      "question_id": "npee_choice_157",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.339238"
+    },
+    "npee_choice_175": {
+      "question_id": "npee_choice_175",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "D",
+      "judge_reason": "模型回答: D, 参考答案: D",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.523726"
+    },
+    "npee_choice_176": {
+      "question_id": "npee_choice_176",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.745424"
+    },
+    "npee_choice_177": {
+      "question_id": "npee_choice_177",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:02.754629"
+    },
+    "npee_choice_178": {
+      "question_id": "npee_choice_178",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: B",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:03.866256"
+    },
+    "npee_choice_180": {
+      "question_id": "npee_choice_180",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:03.873511"
+    },
+    "npee_choice_179": {
+      "question_id": "npee_choice_179",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "A",
+      "judge_reason": "模型回答: A, 参考答案: A",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:03.876616"
+    },
+    "npee_choice_171": {
+      "question_id": "npee_choice_171",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:03.879180"
+    },
+    "npee_tf_0": {
+      "question_id": "npee_tf_0",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.310821"
+    },
+    "npee_tf_2": {
+      "question_id": "npee_tf_2",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.347564"
+    },
+    "npee_tf_1": {
+      "question_id": "npee_tf_1",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.517562"
+    },
+    "npee_choice_181": {
+      "question_id": "npee_choice_181",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "C",
+      "judge_reason": "模型回答: C, 参考答案: C",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.818848"
+    },
+    "npee_tf_3": {
+      "question_id": "npee_tf_3",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.827648"
+    },
+    "npee_tf_5": {
+      "question_id": "npee_tf_5",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:04.954368"
+    },
+    "npee_tf_6": {
+      "question_id": "npee_tf_6",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.213147"
+    },
+    "npee_tf_4": {
+      "question_id": "npee_tf_4",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.246056"
+    },
+    "npee_tf_7": {
+      "question_id": "npee_tf_7",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.319159"
+    },
+    "npee_tf_8": {
+      "question_id": "npee_tf_8",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.426900"
+    },
+    "npee_tf_10": {
+      "question_id": "npee_tf_10",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.922330"
+    },
+    "npee_tf_12": {
+      "question_id": "npee_tf_12",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:05.927371"
+    },
+    "npee_tf_11": {
+      "question_id": "npee_tf_11",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.020008"
+    },
+    "npee_tf_9": {
+      "question_id": "npee_tf_9",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.075590"
+    },
+    "npee_tf_13": {
+      "question_id": "npee_tf_13",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.311658"
+    },
+    "npee_tf_14": {
+      "question_id": "npee_tf_14",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.526814"
+    },
+    "npee_tf_15": {
+      "question_id": "npee_tf_15",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.566326"
+    },
+    "npee_tf_16": {
+      "question_id": "npee_tf_16",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.577853"
+    },
+    "npee_tf_17": {
+      "question_id": "npee_tf_17",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:06.845301"
+    },
+    "npee_tf_19": {
+      "question_id": "npee_tf_19",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.038879"
+    },
+    "npee_tf_18": {
+      "question_id": "npee_tf_18",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.048040"
+    },
+    "npee_tf_20": {
+      "question_id": "npee_tf_20",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.184713"
+    },
+    "npee_tf_24": {
+      "question_id": "npee_tf_24",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.685798"
+    },
+    "npee_tf_21": {
+      "question_id": "npee_tf_21",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.761913"
+    },
+    "npee_tf_22": {
+      "question_id": "npee_tf_22",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.794799"
+    },
+    "npee_tf_23": {
+      "question_id": "npee_tf_23",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:07.894917"
+    },
+    "npee_choice_31": {
+      "question_id": "npee_choice_31",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "failed",
+      "score": null,
+      "model_answer": null,
+      "judge_reason": null,
+      "error": "Request failed: Server disconnected without sending a response.",
+      "timestamp": "2026-04-26T18:01:08.185289"
+    },
+    "npee_tf_27": {
+      "question_id": "npee_tf_27",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.220584"
+    },
+    "npee_tf_26": {
+      "question_id": "npee_tf_26",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.263650"
+    },
+    "npee_tf_25": {
+      "question_id": "npee_tf_25",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.304015"
+    },
+    "npee_tf_28": {
+      "question_id": "npee_tf_28",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.399691"
+    },
+    "npee_tf_32": {
+      "question_id": "npee_tf_32",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.749389"
+    },
+    "npee_tf_30": {
+      "question_id": "npee_tf_30",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.778235"
+    },
+    "npee_tf_29": {
+      "question_id": "npee_tf_29",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:08.956749"
+    },
+    "npee_tf_31": {
+      "question_id": "npee_tf_31",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:09.005235"
+    },
+    "npee_tf_33": {
+      "question_id": "npee_tf_33",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:09.045144"
+    },
+    "npee_tf_36": {
+      "question_id": "npee_tf_36",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.427334"
+    },
+    "npee_tf_35": {
+      "question_id": "npee_tf_35",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.437328"
+    },
+    "npee_tf_34": {
+      "question_id": "npee_tf_34",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.486240"
+    },
+    "npee_tf_38": {
+      "question_id": "npee_tf_38",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.638760"
+    },
+    "npee_tf_37": {
+      "question_id": "npee_tf_37",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.788687"
+    },
+    "npee_tf_39": {
+      "question_id": "npee_tf_39",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:11.860733"
+    },
+    "npee_tf_41": {
+      "question_id": "npee_tf_41",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:12.082232"
+    },
+    "npee_tf_43": {
+      "question_id": "npee_tf_43",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:12.196143"
+    },
+    "npee_tf_40": {
+      "question_id": "npee_tf_40",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:12.463654"
+    },
+    "npee_tf_44": {
+      "question_id": "npee_tf_44",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:12.483572"
+    },
+    "npee_tf_42": {
+      "question_id": "npee_tf_42",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:12.536768"
+    },
+    "npee_tf_48": {
+      "question_id": "npee_tf_48",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:13.851833"
+    },
+    "npee_tf_45": {
+      "question_id": "npee_tf_45",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:13.856812"
+    },
+    "npee_tf_47": {
+      "question_id": "npee_tf_47",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:13.862246"
+    },
+    "npee_tf_46": {
+      "question_id": "npee_tf_46",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:13.865460"
+    },
+    "npee_tf_49": {
+      "question_id": "npee_tf_49",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:13.868747"
+    },
+    "npee_tf_53": {
+      "question_id": "npee_tf_53",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.054534"
+    },
+    "npee_tf_51": {
+      "question_id": "npee_tf_51",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.284534"
+    },
+    "npee_tf_52": {
+      "question_id": "npee_tf_52",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.308522"
+    },
+    "npee_tf_55": {
+      "question_id": "npee_tf_55",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.473524"
+    },
+    "npee_tf_54": {
+      "question_id": "npee_tf_54",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.480460"
+    },
+    "npee_tf_50": {
+      "question_id": "npee_tf_50",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.548213"
+    },
+    "npee_tf_56": {
+      "question_id": "npee_tf_56",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.872825"
+    },
+    "npee_tf_57": {
+      "question_id": "npee_tf_57",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:16.911799"
+    },
+    "npee_tf_58": {
+      "question_id": "npee_tf_58",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.106814"
+    },
+    "npee_tf_59": {
+      "question_id": "npee_tf_59",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.209146"
+    },
+    "npee_tf_61": {
+      "question_id": "npee_tf_61",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.297398"
+    },
+    "npee_tf_62": {
+      "question_id": "npee_tf_62",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.527518"
+    },
+    "npee_tf_63": {
+      "question_id": "npee_tf_63",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.614044"
+    },
+    "npee_tf_64": {
+      "question_id": "npee_tf_64",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.816837"
+    },
+    "npee_tf_65": {
+      "question_id": "npee_tf_65",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.888005"
+    },
+    "npee_tf_60": {
+      "question_id": "npee_tf_60",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.919392"
+    },
+    "npee_tf_66": {
+      "question_id": "npee_tf_66",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:17.998156"
+    },
+    "npee_tf_67": {
+      "question_id": "npee_tf_67",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.157573"
+    },
+    "npee_tf_68": {
+      "question_id": "npee_tf_68",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.232487"
+    },
+    "npee_tf_69": {
+      "question_id": "npee_tf_69",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.321842"
+    },
+    "npee_tf_71": {
+      "question_id": "npee_tf_71",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.467982"
+    },
+    "npee_tf_70": {
+      "question_id": "npee_tf_70",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.492894"
+    },
+    "npee_tf_72": {
+      "question_id": "npee_tf_72",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.791196"
+    },
+    "npee_tf_73": {
+      "question_id": "npee_tf_73",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:18.815255"
+    },
+    "npee_tf_74": {
+      "question_id": "npee_tf_74",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:19.123775"
+    },
+    "npee_tf_76": {
+      "question_id": "npee_tf_76",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:19.176805"
+    },
+    "npee_tf_78": {
+      "question_id": "npee_tf_78",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:19.413014"
+    },
+    "npee_tf_79": {
+      "question_id": "npee_tf_79",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:19.589642"
+    },
+    "npee_tf_80": {
+      "question_id": "npee_tf_80",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:19.960887"
+    },
+    "npee_tf_81": {
+      "question_id": "npee_tf_81",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:20.018631"
+    },
+    "npee_tf_82": {
+      "question_id": "npee_tf_82",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:20.047418"
+    },
+    "npee_tf_77": {
+      "question_id": "npee_tf_77",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:20.221327"
+    },
+    "npee_tf_84": {
+      "question_id": "npee_tf_84",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:21.496170"
+    },
+    "npee_tf_85": {
+      "question_id": "npee_tf_85",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:21.507294"
+    },
+    "npee_tf_86": {
+      "question_id": "npee_tf_86",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:21.511109"
+    },
+    "npee_tf_83": {
+      "question_id": "npee_tf_83",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:21.516111"
+    },
+    "npee_tf_75": {
+      "question_id": "npee_tf_75",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:21.520113"
+    },
+    "npee_tf_89": {
+      "question_id": "npee_tf_89",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.420119"
+    },
+    "npee_tf_90": {
+      "question_id": "npee_tf_90",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.428907"
+    },
+    "npee_tf_87": {
+      "question_id": "npee_tf_87",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.433713"
+    },
+    "npee_tf_88": {
+      "question_id": "npee_tf_88",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.437221"
+    },
+    "npee_tf_91": {
+      "question_id": "npee_tf_91",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.442574"
+    },
+    "npee_tf_96": {
+      "question_id": "npee_tf_96",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.924183"
+    },
+    "npee_tf_93": {
+      "question_id": "npee_tf_93",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.932242"
+    },
+    "npee_tf_92": {
+      "question_id": "npee_tf_92",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.936273"
+    },
+    "npee_tf_94": {
+      "question_id": "npee_tf_94",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:22.962074"
+    },
+    "npee_tf_95": {
+      "question_id": "npee_tf_95",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:23.026509"
+    },
+    "npee_tf_100": {
+      "question_id": "npee_tf_100",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:25.691171"
+    },
+    "npee_tf_99": {
+      "question_id": "npee_tf_99",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:25.697044"
+    },
+    "npee_tf_98": {
+      "question_id": "npee_tf_98",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:25.702626"
+    },
+    "npee_tf_97": {
+      "question_id": "npee_tf_97",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:25.706504"
+    },
+    "npee_tf_101": {
+      "question_id": "npee_tf_101",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:25.718254"
+    },
+    "npee_tf_104": {
+      "question_id": "npee_tf_104",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:28.516748"
+    },
+    "npee_tf_106": {
+      "question_id": "npee_tf_106",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:28.532093"
+    },
+    "npee_tf_105": {
+      "question_id": "npee_tf_105",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:28.569080"
+    },
+    "npee_tf_102": {
+      "question_id": "npee_tf_102",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:28.633324"
+    },
+    "npee_tf_103": {
+      "question_id": "npee_tf_103",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:28.638879"
+    },
+    "npee_tf_107": {
+      "question_id": "npee_tf_107",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:33.946139"
+    },
+    "npee_tf_108": {
+      "question_id": "npee_tf_108",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:33.953440"
+    },
+    "npee_tf_111": {
+      "question_id": "npee_tf_111",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:33.957485"
+    },
+    "npee_tf_110": {
+      "question_id": "npee_tf_110",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:33.962868"
+    },
+    "npee_tf_109": {
+      "question_id": "npee_tf_109",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:33.966842"
+    },
+    "npee_tf_116": {
+      "question_id": "npee_tf_116",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.476843"
+    },
+    "npee_tf_112": {
+      "question_id": "npee_tf_112",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.504494"
+    },
+    "npee_tf_113": {
+      "question_id": "npee_tf_113",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.644677"
+    },
+    "npee_tf_114": {
+      "question_id": "npee_tf_114",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.661576"
+    },
+    "npee_tf_115": {
+      "question_id": "npee_tf_115",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.840431"
+    },
+    "npee_tf_117": {
+      "question_id": "npee_tf_117",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:34.891564"
+    },
+    "npee_tf_120": {
+      "question_id": "npee_tf_120",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.080670"
+    },
+    "npee_tf_118": {
+      "question_id": "npee_tf_118",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.098316"
+    },
+    "npee_tf_119": {
+      "question_id": "npee_tf_119",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.115171"
+    },
+    "npee_tf_121": {
+      "question_id": "npee_tf_121",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.402492"
+    },
+    "npee_tf_124": {
+      "question_id": "npee_tf_124",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.587754"
+    },
+    "npee_tf_122": {
+      "question_id": "npee_tf_122",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.645105"
+    },
+    "npee_tf_125": {
+      "question_id": "npee_tf_125",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.665823"
+    },
+    "npee_tf_123": {
+      "question_id": "npee_tf_123",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.707035"
+    },
+    "npee_tf_126": {
+      "question_id": "npee_tf_126",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:35.895246"
+    },
+    "npee_tf_127": {
+      "question_id": "npee_tf_127",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:36.765917"
+    },
+    "npee_tf_130": {
+      "question_id": "npee_tf_130",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:36.772152"
+    },
+    "npee_tf_129": {
+      "question_id": "npee_tf_129",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:36.822078"
+    },
+    "npee_tf_131": {
+      "question_id": "npee_tf_131",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: T",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:36.828292"
+    },
+    "npee_tf_128": {
+      "question_id": "npee_tf_128",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "False",
+      "judge_reason": "模型回答: F, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:36.833975"
+    },
+    "npee_tf_132": {
+      "question_id": "npee_tf_132",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:37.723494"
+    },
+    "npee_tf_133": {
+      "question_id": "npee_tf_133",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "模型回答: T, 参考答案: F",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:37.753418"
+    },
+    "npee_completion_2": {
+      "question_id": "npee_completion_2",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "U-shaped valleys",
+      "judge_reason": "答案“U-shaped valleys”科学性正确，术语使用精准，是冰川剥蚀形成的典型地貌。虽然仅列举了一项，但符合填空题要求且核心概念正确，给予满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:49.028881"
+    },
+    "npee_completion_0": {
+      "question_id": "npee_completion_0",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Endogenic geological processes include tectonic movements, magmatism, metamorphism, and earthquakes.",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:49.950571"
+    },
+    "npee_completion_1": {
+      "question_id": "npee_completion_1",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "water velocity, sediment load, bedrock resistance",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The intensity of river erosion mainly depends on (), etc.\n    *   标准答案",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:50.227038"
+    },
+    "npee_completion_3": {
+      "question_id": "npee_completion_3",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "Waves, tides, currents, and tsunamis",
+      "judge_reason": "1. 分析题目要求：\n   - 角色：严谨的地球科学教授\n   - 评判标准：科学性（原理是否有明显错误）、术语精度（专业名词使用是否准确，填空题允许规范同义词）、完整性（是否涵盖核心要点）\n   -",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:50.466889"
+    },
+    "npee_completion_4": {
+      "question_id": "npee_completion_4",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "calcium carbonate",
+      "judge_reason": "1.  **分析题目**：题目是填空题 \"Limestone is composed of () minerals.\"，要求填入石灰岩的组成矿物。\n2.  **分析标准答案**：标准答案是 \"calc",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:52.077852"
+    },
+    "npee_completion_5": {
+      "question_id": "npee_completion_5",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "D is the code of (Denmark).",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：D is the code of ().\n    *   标准答案：devonian (泥盆纪)\n    *   在地质学/地球科学中，\"D",
+      "error": null,
+      "timestamp": "2026-04-26T18:01:57.213823"
+    },
+    "npee_completion_8": {
+      "question_id": "npee_completion_8",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "halite",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:04.271580"
+    },
+    "npee_completion_9": {
+      "question_id": "npee_completion_9",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "an intrusive igneous rock",
+      "judge_reason": "1.  **分析题目和答案**：\n    *   题目：Granite is (). (花岗岩是())\n    *   标准答案：Intrusive rock (侵入岩)\n    *   学生答案：a",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:04.900696"
+    },
+    "npee_completion_7": {
+      "question_id": "npee_completion_7",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "the intertidal zone",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:04.907633"
+    },
+    "npee_completion_6": {
+      "question_id": "npee_completion_6",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "meandering",
+      "judge_reason": "题目：The way to lengthen the river is\n标准答案：Tracing erosion, meandering, delta formation\n学生答案：meanderin",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:11.620959"
+    },
+    "npee_completion_10": {
+      "question_id": "npee_completion_10",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "surf zone",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:13.765329"
+    },
+    "npee_completion_11": {
+      "question_id": "npee_completion_11",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "continental slope",
+      "judge_reason": "答案正确，术语使用准确。与标准答案仅存在首字母大小写差异，核心概念完全一致，符合满分标准。",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:15.921494"
+    },
+    "npee_completion_14": {
+      "question_id": "npee_completion_14",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "U-shaped",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:22.286976"
+    },
+    "npee_completion_12": {
+      "question_id": "npee_completion_12",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "continental shelf",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The main site of marine sedimentation is () (海洋沉积的主要场所是)\n    *   标准答案：",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:26.166030"
+    },
+    "npee_completion_15": {
+      "question_id": "npee_completion_15",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "tectonic compression",
+      "judge_reason": "核心概念正确，'tectonic compression'（构造挤压）是地质学标准专业术语，与标准答案'horizontal extrusion'（水平挤压）核心含义一致，符合填空题规范同义词要求，给满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:30.602752"
+    },
+    "npee_completion_16": {
+      "question_id": "npee_completion_16",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "tectonic uplift and erosion",
+      "judge_reason": "学生答案指出了形成角度不整合的地质过程（构造抬升和侵蚀），但未指出角度不整合最核心的伴随特征（下伏地层产状不一致），且该过程亦可见于其他类型不整合，缺乏特异性。",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:35.804796"
+    },
+    "npee_completion_13": {
+      "question_id": "npee_completion_13",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "mid-ocean ridge",
+      "judge_reason": "1.  **分析题目**：\n    *   题目：Due to the continuous expansion of the sea floor, the age of the ocean crus",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:37.066273"
+    },
+    "npee_completion_17": {
+      "question_id": "npee_completion_17",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Claystone (or shale)",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The lithology that can become a good water-resisting layer is () (能成为良",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:39.962564"
+    },
+    "npee_completion_18": {
+      "question_id": "npee_completion_18",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "tectonic plate boundary",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The boundary of plate structure is () (板块构造的边界是())\n    *   标准答案：Separa",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:41.104487"
+    },
+    "npee_completion_19": {
+      "question_id": "npee_completion_19",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Seismic wave analysis (or seismic tomography)",
+      "judge_reason": "核心概念正确，术语规范。'Seismic wave analysis'与标准答案同义，'seismic tomography'是更具体的现代地球物理方法，均符合划分地球内部结构的方法要求，给满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:43.436750"
+    },
+    "npee_completion_21": {
+      "question_id": "npee_completion_21",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Crust, mantle, core",
+      "judge_reason": "1.  **分析题目**：题目要求填出地球从地表到中心可以分为哪三个圈层。\n2.  **分析标准答案**：标准答案给出了两组概念：Atmosphere, hydrosphere, biosphere（",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:49.572668"
+    },
+    "npee_completion_20": {
+      "question_id": "npee_completion_20",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "The chronostratigraphic units are (stratigraphic units, e.g., eonothem, erathem, system, series, stage);  \nThe geological age unit is (time units, e.g., eon, era, period, epoch, age).",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:53.260023"
+    },
+    "npee_completion_22": {
+      "question_id": "npee_completion_22",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "Triassic, Jurassic, Cretaceous",
+      "judge_reason": "1.  **分析请求**：\n    *   角色：严谨的地球科学教授。\n    *   任务：评判填空题的学生答案。\n    *   题目：The Mesozoic can be divided in",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:55.013204"
+    },
+    "npee_completion_23": {
+      "question_id": "npee_completion_23",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "attitude, thickness, lithology, fossil content, and contact relationships",
+      "judge_reason": "学生答案中\"attitude\"（产状）包含了产状要素的概念，但未具体指出走向、倾向和倾角；且混入了厚度、岩性、化石含量和接触关系等不属于产状要素（occurrence factors）的岩层特征，概念不够精确。",
+      "error": null,
+      "timestamp": "2026-04-26T18:02:57.938586"
+    },
+    "npee_completion_25": {
+      "question_id": "npee_completion_25",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "downcutting erosion, lateral erosion, headward erosion",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:04.120761"
+    },
+    "npee_completion_26": {
+      "question_id": "npee_completion_26",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Magnetic declination, magnetic inclination (dip), and magnetic intensity",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:04.168360"
+    },
+    "npee_completion_24": {
+      "question_id": "npee_completion_24",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "intertidal zone, neritic zone, oceanic zone, abyssal zone, hadal zone",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:04.451092"
+    },
+    "npee_completion_28": {
+      "question_id": "npee_completion_28",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "valley glaciers, continental glaciers (ice sheets), piedmont glaciers, cirque glaciers",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The main types of glaciers are (冰川的主要类型是)\n    *   标准答案：Continental gla",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:13.241171"
+    },
+    "npee_completion_27": {
+      "question_id": "npee_completion_27",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Cambrian, Ordovician, Silurian, Devonian, Carboniferous, Permian",
+      "judge_reason": "1.  **分析请求**：\n    *   角色：严谨的地球科学教授。\n    *   评判标准：科学性（原理错误）、术语精度（专业名词准确，允许同义词）、完整性（涵盖核心要点）。简短不扣分，核心正确",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:15.842244"
+    },
+    "npee_completion_30": {
+      "question_id": "npee_completion_30",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Paleogene, Neogene, Quaternary",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:16.162985"
+    },
+    "npee_completion_31": {
+      "question_id": "npee_completion_31",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "环太平洋火山带、地中海—喜马拉雅火山带、大洋中脊火山带",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The active volcanoes in the world are concentrated in three zones, whi",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:16.298684"
+    },
+    "npee_completion_29": {
+      "question_id": "npee_completion_29",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "ultramafic, mafic, intermediate, and felsic",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:22.486830"
+    },
+    "npee_completion_32": {
+      "question_id": "npee_completion_32",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "in the same direction; unequal",
+      "judge_reason": "题目：In the inclined fold, the axial plane is inclined, the rock strata on both wings are inclined (),",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:28.378282"
+    },
+    "npee_completion_35": {
+      "question_id": "npee_completion_35",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "physical weathering, chemical weathering, and biological weathering",
+      "judge_reason": "答案核心概念完全正确，专业术语使用精准，涵盖了物理、化学和生物风化三个要点。顺序不同不影响科学性，给满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:31.680996"
+    },
+    "npee_completion_34": {
+      "question_id": "npee_completion_34",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "central eruption, fissure eruption, and mixed eruption",
+      "judge_reason": "题目：According to the route of volcanic eruption, it can be divided into\n标准答案：Penetration eruption, fi",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:32.832166"
+    },
+    "npee_completion_33": {
+      "question_id": "npee_completion_33",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Frost wedging, thermal expansion and contraction, exfoliation, salt crystallization, biological activity",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:33.010168"
+    },
+    "npee_completion_36": {
+      "question_id": "npee_completion_36",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "epeirogenic movement and orogenic movement",
+      "judge_reason": "学生答案使用了构造运动的另一种标准分类（造陆运动和造山运动），科学原理无误，术语极其精准，属于规范的专业同义/等价分类，给满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:41.020793"
+    },
+    "npee_completion_37": {
+      "question_id": "npee_completion_37",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "erect, inclined, overturned, recumbent",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：根据轴面产状，褶皱可以分为... (According to the occurrence of axial plane, folds ca",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:43.643482"
+    },
+    "npee_completion_38": {
+      "question_id": "npee_completion_38",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "intrusive contact and conformable contact",
+      "judge_reason": "1.  **分析题目**：题目问的是侵入岩与围岩的接触关系。\n2.  **分析标准答案**：Sedimentary contact (沉积接触), intrusive contact (侵入接触), ",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:49.138639"
+    },
+    "npee_completion_41": {
+      "question_id": "npee_completion_41",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "igneous, sedimentary, and metamorphic rocks",
+      "judge_reason": "核心概念完全正确，三大岩石类型齐全。\"igneous rock\" 是 \"magmatic rock\" 的规范同义词，符合填空题同义词给分标准，给予满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:51.325098"
+    },
+    "npee_completion_39": {
+      "question_id": "npee_completion_39",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "seismic wave propagation, faulting, and crustal deformation",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:51.849433"
+    },
+    "npee_completion_40": {
+      "question_id": "npee_completion_40",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "solid-state recrystallization",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The main mode of metamorphism is (变质作用的主要方式是)\n    *   标准答案：Recrystalli",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:52.885178"
+    },
+    "npee_completion_42": {
+      "question_id": "npee_completion_42",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "Quartz, clay minerals, dissolved ions",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:03:57.950751"
+    },
+    "npee_completion_43": {
+      "question_id": "npee_completion_43",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "True",
+      "judge_reason": "1.  **分析题目类型**：填空题。\n2.  **分析题目**：\"Chemical weathering destroys the original rock and forms new miner",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:02.372984"
+    },
+    "npee_completion_46": {
+      "question_id": "npee_completion_46",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "Solubility, water flow velocity, temperature, pH, ionic strength, and presence of complexing agents",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:06.087447"
+    },
+    "npee_completion_44": {
+      "question_id": "npee_completion_44",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Suspension, saltation, traction",
+      "judge_reason": "1. 分析题目和标准答案：\n   - 题目：Main methods of sediment transport by running water (流水搬运沉积物的主要方式)\n   - 标准答案：R",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:09.293278"
+    },
+    "npee_completion_45": {
+      "question_id": "npee_completion_45",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "Suspension, saltation, surface creep",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:09.676019"
+    },
+    "npee_completion_48": {
+      "question_id": "npee_completion_48",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "sand, silt, clay",
+      "judge_reason": "1.  **分析请求：**\n    *   角色：严谨的地球科学教授。\n    *   任务：根据科学性、术语精度和完整性，评判一道填空题的学生答案。\n    *   题目：“In the proce",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:15.583435"
+    },
+    "npee_completion_47": {
+      "question_id": "npee_completion_47",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "mechanical differentiation, chemical differentiation, and biological differentiation",
+      "judge_reason": "1.  **分析题目**：题目问的是根据搬运物质的性质，沉积分异（sedimentation differentiation）分为哪几种。\n2.  **分析标准答案**：Mechanical depo",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:17.091074"
+    },
+    "npee_completion_49": {
+      "question_id": "npee_completion_49",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "compaction, cementation, and recrystallization",
+      "judge_reason": "1.  **分析请求**：\n    *   角色：严谨的地球科学教授。\n    *   评判标准：科学性（原理错误）、术语精度（专业名词准确，允许同义词）、完整性（涵盖核心要点）。简短不扣分，核心正确",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:19.698422"
+    },
+    "npee_completion_50": {
+      "question_id": "npee_completion_50",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "clastic, chemical, and organic sedimentary rocks",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:23.436636"
+    },
+    "npee_completion_51": {
+      "question_id": "npee_completion_51",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "clastic and chemical (or authigenic) minerals",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:28.219820"
+    },
+    "npee_completion_54": {
+      "question_id": "npee_completion_54",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "calcite, silica, iron oxide, clay minerals",
+      "judge_reason": "学生回答的是胶结物的成分（方解石、硅质等），而题目问的是胶结类型（基底胶结、孔隙胶结等），概念混淆，答非所问。",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:29.865490"
+    },
+    "npee_completion_52": {
+      "question_id": "npee_completion_52",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 1,
+      "model_answer": "grain size, grain shape, grain sorting, and grain rounding",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:31.171121"
+    },
+    "npee_completion_53": {
+      "question_id": "npee_completion_53",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "grain size, grain shape, grain sorting, and grain rounding",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:32.165783"
+    },
+    "npee_completion_55": {
+      "question_id": "npee_completion_55",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "Sedimentary layers (or strata)",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：In bedding structure, what is the main composition of bedding (在层理构造中，",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:36.910942"
+    },
+    "npee_completion_56": {
+      "question_id": "npee_completion_56",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Stromatolites, microbial mats, burrows, borings, tracks, trails",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:42.692903"
+    },
+    "npee_completion_57": {
+      "question_id": "npee_completion_57",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "Quartz, feldspar, lithic fragments, clay matrix",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:45.257172"
+    },
+    "npee_completion_59": {
+      "question_id": "npee_completion_59",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "sandstone is divided into **arenite, wacke, and greywacke**.",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:46.872719"
+    },
+    "npee_completion_58": {
+      "question_id": "npee_completion_58",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "sandstone, siltstone, and mudstone (or shale)",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：Terrestrial clastic rocks are divided into (陆源碎屑岩分为)\n    *   标准答案：Cong",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:47.813478"
+    },
+    "npee_completion_61": {
+      "question_id": "npee_completion_61",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 1,
+      "model_answer": "point contact",
+      "judge_reason": "1.  **分析题目**：题目是一道填空题，问的是在压实作用中，砂质沉积物中刚性颗粒之间的接触关系。\n2.  **分析标准答案**：Point contact, line contact, bump ",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:53.324186"
+    },
+    "npee_completion_60": {
+      "question_id": "npee_completion_60",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Kaolinite, illite, smectite (e.g., montmorillonite), chlorite",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：Common clay minerals (常见的粘土矿物)\n    *   标准答案：Kaolinite, illite, montmor",
+      "error": null,
+      "timestamp": "2026-04-26T18:04:53.412244"
+    },
+    "npee_completion_64": {
+      "question_id": "npee_completion_64",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Calcite and dolomite",
+      "judge_reason": "1.  **分析请求**：\n    *   角色：严谨的地球科学教授。\n    *   评判标准：科学性（原理是否有明显错误）、术语精度（专业名词使用是否准确，填空题允许规范同义词）、完整性（是否涵盖",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:02.944307"
+    },
+    "npee_completion_62": {
+      "question_id": "npee_completion_62",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "Quartz, feldspar, lithic fragments",
+      "judge_reason": "1.  **分析题目**：\n    *   题目：Main types of grain debris in endogenous sedimentary rocks (内源沉积岩中的主要碎屑颗粒类型",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:02.996282"
+    },
+    "npee_completion_63": {
+      "question_id": "npee_completion_63",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "limestone, dolomite, chert, rock salt, gypsum",
+      "judge_reason": "学生答案列举的是具体岩石而非大类，且仅涵盖了碳酸盐岩、硅质岩和蒸发岩三类，遗漏了铝质岩、铁质岩、锰质岩、磷质岩和可燃有机岩等核心类型，完整性不足。",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:04.460264"
+    },
+    "npee_completion_65": {
+      "question_id": "npee_completion_65",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Gutenberg discontinuity is the **core–mantle** interface.  \n\n（注：题目中“Gutenberg noodles”应为笔误，正确术语是 **Gutenberg discontinuity**，指地核与地幔之间的分界面。）",
+      "judge_reason": "1.  **分析题目与标准答案**：\n    *   题目：Gutenberg noodles are__________ And___________ Interface. (显然noodles是d",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:12.918828"
+    },
+    "npee_completion_66": {
+      "question_id": "npee_completion_66",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "Explosive and effusive",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:14.860124"
+    },
+    "npee_completion_67": {
+      "question_id": "npee_completion_67",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Ultrabasic: dunite  \nBasic: basalt  \nNeutral: andesite  \nAcidic: granite  \nVein rocks: pegmatite  \n\n答案：dunite, basalt, andesite, granite, pegmatite",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:15.487669"
+    },
+    "npee_completion_69": {
+      "question_id": "npee_completion_69",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Metamorphism includes **contact metamorphism**, **regional metamorphism**, and **dynamic metamorphism**.",
+      "judge_reason": "答案完整且准确，包含了接触变质、区域变质和动力变质三种类型，专业术语使用精准，无科学性错误，顺序不同不影响核心内容正确性。",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:21.080531"
+    },
+    "npee_completion_68": {
+      "question_id": "npee_completion_68",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "题目表述有误。“The Mesozoic era has existed from morning to night” 不符合地质事实——中生代（Mesozoic Era）是地质历史上的一个时代，持续约1.86亿年（约252–66 Ma），并非“从早到晚”。此外，“their codes are respectively” 指代不明，中生代本身没有“morning/night codes”。\n\n可能题干存在严重误译或混淆。若原意是问**中生代的三个纪（Periods）及其英文缩写或标准地质年代代码**，则正确答案为：\n\n**Triassic (T), Jurassic (J), Cretaceous (K)**  \n（注：国际通用中生代三纪代码为 T、J、K；其中 K 来自德语 *Kreide*，即白垩）\n\n✅ 简洁准确答案：  \n**T, J, K**",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:26.142410"
+    },
+    "npee_completion_70": {
+      "question_id": "npee_completion_70",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 2,
+      "model_answer": "Volcanic ash, volcanic sand, volcanic gravel",
+      "judge_reason": "从推理中提取",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:26.536682"
+    },
+    "npee_completion_71": {
+      "question_id": "npee_completion_71",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Elastic deformation, plastic deformation, fracture",
+      "judge_reason": "1.  **分析题目**：题目要求填出岩石变形发展的三个阶段（The three stages of rock deformation development are ___________, ___",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:26.587070"
+    },
+    "npee_completion_72": {
+      "question_id": "npee_completion_72",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "magnetic declination, magnetic inclination（or dip）",
+      "judge_reason": "1. 分析题目：题目要求填写地磁要素（The geomagnetic elements include ______ And ______;）。注意题目中有\"And\"，暗示可能需要列出几个要素。\n2.",
+      "error": null,
+      "timestamp": "2026-04-26T18:05:28.467185"
+    },
+    "npee_completion_74": {
+      "question_id": "npee_completion_74",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "Moho discontinuity（莫霍面） and Gutenberg discontinuity（古登堡面）；crust, mantle, outer core, and inner core（地壳、地幔、外核、内核）",
+      "judge_reason": "裁判失败: name 'Path' is not defined",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:31.503012"
+    },
+    "npee_completion_75": {
+      "question_id": "npee_completion_75",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "contact metamorphism, regional metamorphism, dynamic metamorphism",
+      "judge_reason": "1.  **分析请求：**\n    *   角色：严谨的地球科学教授。\n    *   任务：评判一道关于变质作用类型的填空题的学生答案。\n    *   评判标准：科学性（原理是否有明显错误）、术语",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:32.174329"
+    },
+    "npee_completion_77": {
+      "question_id": "npee_completion_77",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Hydrolysis, oxidation, carbonation, dissolution",
+      "judge_reason": "题目要求评判一道填空题的学生答案。\n标准答案：Oxidation, dissolution, hydrolysis, hydration, biochemical weathering (5个空)\n学",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:32.183376"
+    },
+    "npee_completion_76": {
+      "question_id": "npee_completion_76",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "of the volcanic arc",
+      "judge_reason": "裁判失败: name 'Path' is not defined",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:32.219503"
+    },
+    "npee_completion_73": {
+      "question_id": "npee_completion_73",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "troposphere, stratosphere, mesosphere, thermosphere",
+      "judge_reason": "裁判失败: name 'Path' is not defined",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:32.373576"
+    },
+    "npee_completion_78": {
+      "question_id": "npee_completion_78",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "tides, waves, and currents",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The sea water movement mainly includes __________, ___________________",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:46.510310"
+    },
+    "npee_completion_81": {
+      "question_id": "npee_completion_81",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "compaction and cementation",
+      "judge_reason": "学生答案'compaction and cementation'涵盖了压实作用和胶结作用，科学原理正确，专业术语使用精准，且比标准答案更完整地回答了题目中的两个空格，给予满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:47.316948"
+    },
+    "npee_completion_79": {
+      "question_id": "npee_completion_79",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "Alpine glaciers and continental glaciers",
+      "judge_reason": "学生答案科学准确，术语规范。不仅包含了标准答案中的'continental glaciers'，还正确补充了'alpine glaciers'，完整回答了题目的两个填空，给予满分。",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:47.322325"
+    },
+    "npee_completion_80": {
+      "question_id": "npee_completion_80",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "acidic (SiO₂ > 65%), intermediate (52–65% SiO₂), basic (45–52% SiO₂)",
+      "judge_reason": "裁判失败: name 'Path' is not defined",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:48.429916"
+    },
+    "npee_completion_82": {
+      "question_id": "npee_completion_82",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 3,
+      "model_answer": "primary color and secondary color",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：The color of sedimentary rocks can be divided into ___________________",
+      "error": null,
+      "timestamp": "2026-04-26T18:06:50.139614"
+    },
+    "npee_completion_83": {
+      "question_id": "npee_completion_83",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "bedded and massive",
+      "judge_reason": "科学性错误，混淆了'结构'与'构造'的概念。'bedded'和'massive'属于沉积岩的构造类型，而非结构类型。碳酸盐岩的结构类型应为颗粒结构、泥晶结构等。",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:00.599072"
+    },
+    "npee_completion_84": {
+      "question_id": "npee_completion_84",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "calcite, aragonite, dolomite",
+      "judge_reason": "1.  **分析题目**：题目是关于碳酸盐岩中常见的颗粒类型。填空处需要填入碳酸盐岩的颗粒类型。\n2.  **分析标准答案**：Endoclast (内碎屑), bioclastic (生物碎屑), ",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:00.605496"
+    },
+    "npee_completion_86": {
+      "question_id": "npee_completion_86",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "straight, meandering, braided, and anastomosing",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：根据河流的平面几何形态，河流可以分为哪四种类型？\n    *   标准答案：Pingzhi River (平直河), meandering ",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:03.103234"
+    },
+    "npee_completion_85": {
+      "question_id": "npee_completion_85",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 5,
+      "model_answer": "braided channel deposits, debris flow deposits, sheet flood deposits",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：冲积扇的沉积类型包括 __________, ____________________ 和 __________。 (注意：题目有三个空，但",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:05.369012"
+    },
+    "npee_completion_87": {
+      "question_id": "npee_completion_87",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "braided river, meandering river, anastomosing river, ephemeral river",
+      "judge_reason": "学生回答的是河流的分类类型（辫状河、曲流河、网状河、间歇河），而题目要求填写的是河流相的四个亚相（河床、堤岸、河漫、牛轭湖），概念完全错误。",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:06.327186"
+    },
+    "npee_completion_89": {
+      "question_id": "npee_completion_89",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 0,
+      "model_answer": "Bird’s-foot delta and fan-shaped delta",
+      "judge_reason": "裁判失败: name 'Path' is not defined",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:10.080140"
+    },
+    "npee_completion_88": {
+      "question_id": "npee_completion_88",
+      "model_name": "qwen3.6-35b-a3b",
+      "status": "completed",
+      "score": 4,
+      "model_answer": "滨湖相、浅湖相、深湖相、半深湖相",
+      "judge_reason": "1.  **分析题目和标准答案**：\n    *   题目：根据湖泊深度和地理位置，碎屑湖相可以划分为哪几个亚相。\n    *   标准答案：Lake delta, shore lake, shall",
+      "error": null,
+      "timestamp": "2026-04-26T18:07:11.060206"
+    }
+  }
+}
