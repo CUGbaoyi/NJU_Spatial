@@ -1,0 +1,280 @@
+============================================================
+多尺度地理加权回归 MGWR
+案例：美国县级人均收入影响因素的空间异质性
+============================================================
+
+[1] CSV 数据加载完成
+    县数: 3057
+    列: ['FIPS', 'lon', 'lat', 'income_per_capita', 'pop_density', 'agriculture_share', 'mining_share', 'construction_share', 'manufacturing_share', 'finance_share', 'services_share', 'government_share']
+
+[2] Shapefile 加载完成
+    县数: 3224
+
+[3] 数据合并完成: 3057 个县
+
+因变量: income_per_capita
+自变量（全部数值型解释变量，共 8 个）: pop_density, agriculture_share, mining_share, construction_share, manufacturing_share, finance_share, services_share, government_share
+有效数据量: 3057 个县
+坐标范围: 经度 [-124.16, -67.64]
+           纬度 [25.45, 48.82]
+
+已完成 z-score 标准化（y 和 X）
+
+============================================================
+步骤一：OLS 全局回归模型（基准对比）
+============================================================
+
+OLS 回归结果:
+  R² = 0.2057
+  调整 R² = 0.2036
+  AIC = 7989.57
+  F 统计量 = 98.6378, p = 0.000000
+
+回归系数:
+  常数项                      :       0.0000  (p = 1.0000 )
+  pop_density              :       0.1868  (p = 0.0000 ***)
+  agriculture_share        :       0.0821  (p = 0.0001 ***)
+  mining_share             :      -0.0472  (p = 0.0155 *)
+  construction_share       :       0.0318  (p = 0.0750 )
+  manufacturing_share      :      -0.2093  (p = 0.0000 ***)
+  finance_share            :       0.2821  (p = 0.0000 ***)
+  services_share           :      -0.2193  (p = 0.0000 ***)
+  government_share         :      -0.3521  (p = 0.0000 ***)
+
+VIF 检验:
+  pop_density: VIF = 1.0315 
+  agriculture_share: VIF = 1.6457 
+  mining_share: VIF = 1.4584 
+  construction_share: VIF = 1.2205 
+  manufacturing_share: VIF = 1.3712 
+  finance_share: VIF = 8.0299 
+  services_share: VIF = 8.9695 
+  government_share: VIF = 1.2646 
+
+============================================================
+步骤二：MGWR 模型 — 多尺度带宽选择
+============================================================
+
+正在搜索各变量的最优带宽（MGWR 每个变量独立带宽）...
+  这可能需要较长时间，请耐心等待...
+
+Backfitting:   0%|          | 0/30 [00:00<?, ?it/s]Backfitting:   3%|▎         | 1/30 [00:13<06:38, 13.73s/it]Backfitting:   7%|▋         | 2/30 [00:28<06:39, 14.26s/it]Backfitting:  10%|█         | 3/30 [00:43<06:40, 14.85s/it]Backfitting:  13%|█▎        | 4/30 [01:00<06:40, 15.39s/it]Backfitting:  17%|█▋        | 5/30 [01:16<06:32, 15.68s/it]Backfitting:  20%|██        | 6/30 [01:34<06:32, 16.37s/it]Backfitting:  23%|██▎       | 7/30 [01:54<06:45, 17.63s/it]Backfitting:  27%|██▋       | 8/30 [02:16<06:59, 19.07s/it]Backfitting:  30%|███       | 9/30 [02:39<07:04, 20.23s/it]Backfitting:  33%|███▎      | 10/30 [03:01<06:54, 20.73s/it]Backfitting:  37%|███▋      | 11/30 [03:22<06:38, 20.98s/it]Backfitting:  40%|████      | 12/30 [03:43<06:18, 21.03s/it]Backfitting:  43%|████▎     | 13/30 [04:04<05:58, 21.09s/it]Backfitting:  47%|████▋     | 14/30 [04:27<05:42, 21.43s/it]Backfitting:  50%|█████     | 15/30 [04:49<05:23, 21.60s/it]Backfitting:  53%|█████▎    | 16/30 [05:11<05:05, 21.80s/it]Backfitting:  57%|█████▋    | 17/30 [05:34<04:50, 22.32s/it]Backfitting:  60%|██████    | 18/30 [05:57<04:28, 22.42s/it]Backfitting:  63%|██████▎   | 19/30 [06:20<04:07, 22.53s/it]Backfitting:  67%|██████▋   | 20/30 [06:42<03:45, 22.52s/it]Backfitting:  67%|██████▋   | 20/30 [07:05<03:32, 21.26s/it]
+Current iteration: 1 ,SOC: 0.0050768
+Bandwidths: 41.0, 41.0, 41.0, 64.0, 1495.0, 47.0, 41.0, 61.0, 41.0
+Current iteration: 2 ,SOC: 0.0032243
+Bandwidths: 41.0, 41.0, 41.0, 146.0, 1495.0, 47.0, 41.0, 92.0, 41.0
+Current iteration: 3 ,SOC: 0.0018747
+Bandwidths: 41.0, 41.0, 41.0, 447.0, 1499.0, 47.0, 41.0, 102.0, 41.0
+Current iteration: 4 ,SOC: 0.0013882
+Bandwidths: 41.0, 41.0, 41.0, 1048.0, 1499.0, 47.0, 41.0, 120.0, 41.0
+Current iteration: 5 ,SOC: 0.0011311
+Bandwidths: 41.0, 41.0, 41.0, 1488.0, 1499.0, 47.0, 41.0, 128.0, 41.0
+Current iteration: 6 ,SOC: 0.0009624
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1499.0, 47.0, 41.0, 152.0, 41.0
+Current iteration: 7 ,SOC: 0.0007418
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1499.0, 47.0, 41.0, 152.0, 41.0
+Current iteration: 8 ,SOC: 0.0006167
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 177.0, 41.0
+Current iteration: 9 ,SOC: 0.000515
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 193.0, 41.0
+Current iteration: 10 ,SOC: 0.0004261
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 210.0, 41.0
+Current iteration: 11 ,SOC: 0.0003638
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 232.0, 41.0
+Current iteration: 12 ,SOC: 0.0003354
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 265.0, 41.0
+Current iteration: 13 ,SOC: 0.0003174
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 308.0, 41.0
+Current iteration: 14 ,SOC: 0.0003106
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 380.0, 41.0
+Current iteration: 15 ,SOC: 0.0002521
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 418.0, 41.0
+Current iteration: 16 ,SOC: 0.0001988
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 485.0, 41.0
+Current iteration: 17 ,SOC: 0.0001986
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 676.0, 41.0
+Current iteration: 18 ,SOC: 0.0001857
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 940.0, 41.0
+Current iteration: 19 ,SOC: 0.0001367
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 1115.0, 41.0
+Current iteration: 20 ,SOC: 0.0001052
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 1421.0, 41.0
+Current iteration: 21 ,SOC: 8.2e-05
+Bandwidths: 41.0, 41.0, 41.0, 1499.0, 1495.0, 47.0, 41.0, 1476.0, 41.0
+
+MGWR 多尺度带宽选择结果:
+  变量                              最优带宽       占样本比       空间尺度
+  ────────────────────────────────────────────────────────────
+  常数项                               41       1.3%      局部/微观
+  pop_density                       41       1.3%      局部/微观
+  agriculture_share                 41       1.3%      局部/微观
+  mining_share                    1499      49.0%      区域/中观
+  construction_share              1495      48.9%      区域/中观
+  manufacturing_share               47       1.5%      局部/微观
+  finance_share                     41       1.3%      局部/微观
+  services_share                  1476      48.3%      区域/中观
+  government_share                  41       1.3%      局部/微观
+
+============================================================
+步骤三：MGWR 模型拟合
+============================================================
+Inference:   0%|          | 0/1 [00:00<?, ?it/s]Inference: 100%|██████████| 1/1 [00:00<00:00, 47662.55it/s]
+
+MGWR 模型拟合完成:
+  全局 R² = 0.5004
+  调整 R² = 0.4667
+  AICc = 6968.60
+
+MGWR 局部系数统计摘要:
+  变量                                全局均值          最小值          最大值          标准差
+  ───────────────────────────────────────────────────────────────────────────
+  常数项                            -0.0703      -0.6168       0.6249       0.2700
+  pop_density                     0.9830      -0.8086       2.7139       0.6138
+  agriculture_share              -0.0463      -0.9056       0.2868       0.2102
+  mining_share                   -0.0354      -0.0409      -0.0291       0.0032
+  construction_share              0.0464       0.0364       0.0547       0.0054
+  manufacturing_share            -0.0810      -0.5240       0.2785       0.1041
+  finance_share                   0.1674      -0.1644       1.0438       0.1586
+  services_share                 -0.1160      -0.1291      -0.1031       0.0076
+  government_share               -0.2689      -0.8951      -0.0704       0.1458
+
+局部 R² 统计:
+  均值: 0.4620
+  最小值: 0.1048
+  最大值: 0.8391
+  中位数: 0.4586
+
+MGWR vs OLS R² 改善: 0.2947 (+143.3%)
+
+============================================================
+步骤四：结果可视化
+============================================================
+
+[图3] 局部 R² 空间分布 → output_03_local_r2.png
+
+[图4] 局部系数空间分布 → output_04_local_coefficients.png
+
+[图5] MGWR vs OLS 对比 → output_05_mgwr_vs_ols.png
+
+[图6] R² 改善空间分布 → output_06_r2_improvement.png
+
+[图7] 系数分布直方图 → output_07_coef_distributions.png
+
+============================================================
+步骤五：空间异质性分析与讨论
+============================================================
+
+【分析一】局部 R² 较低的区域
+──────────────────────────────────────────────────
+  局部 R² 最低 10% 阈值: 0.2800
+  低 R² 县数: 306 个
+  低 R² 县: ['Toole', 'Liberty', 'Hill', 'Blaine', 'Alpena', 'Alcona', 'Iosco', 'Cayuga', 'Val Verde', 'Hidalgo']...
+
+【分析二】自变量系数的空间异质性（符号变化）
+──────────────────────────────────────────────────
+
+  pop_density (BW=41):
+    OLS Global: 0.1868
+    MGWR Range: [-0.8086, 2.7139]
+    CV: 62.4%
+    Positive: 3001 (98.2%)
+    Negative: 56 (1.8%)
+
+  agriculture_share (BW=41):
+    OLS Global: 0.0821
+    MGWR Range: [-0.9056, 0.2868]
+    CV: 454.2%
+    Positive: 1394 (45.6%)
+    Negative: 1663 (54.4%)
+    ⚠️ Significant sign reversal!
+
+  mining_share (BW=1499):
+    OLS Global: -0.0472
+    MGWR Range: [-0.0409, -0.0291]
+    CV: 9.0%
+    Positive: 0 (0.0%)
+    Negative: 3057 (100.0%)
+    ⚠️ Significant sign reversal!
+
+  construction_share (BW=1495):
+    OLS Global: 0.0318
+    MGWR Range: [0.0364, 0.0547]
+    CV: 11.7%
+    Positive: 3057 (100.0%)
+    Negative: 0 (0.0%)
+
+  manufacturing_share (BW=47):
+    OLS Global: -0.2093
+    MGWR Range: [-0.5240, 0.2785]
+    CV: 128.6%
+    Positive: 512 (16.7%)
+    Negative: 2545 (83.3%)
+    ⚠️ Significant sign reversal!
+
+  finance_share (BW=41):
+    OLS Global: 0.2821
+    MGWR Range: [-0.1644, 1.0438]
+    CV: 94.7%
+    Positive: 2879 (94.2%)
+    Negative: 178 (5.8%)
+    ⚠️ Significant sign reversal!
+
+  services_share (BW=1476):
+    OLS Global: -0.2193
+    MGWR Range: [-0.1291, -0.1031]
+    CV: 6.6%
+    Positive: 0 (0.0%)
+    Negative: 3057 (100.0%)
+    ⚠️ Significant sign reversal!
+
+  government_share (BW=41):
+    OLS Global: -0.3521
+    MGWR Range: [-0.8951, -0.0704]
+    CV: 54.2%
+    Positive: 0 (0.0%)
+    Negative: 3057 (100.0%)
+    ⚠️ Significant sign reversal!
+
+【分析三】MGWR vs OLS 模型比较
+──────────────────────────────────────────────────
+
+  模型比较:
+  指标                            OLS         MGWR
+  ───────────────────────────────────────────────
+  R²                         0.2057       0.5004
+  调整 R²                      0.2036       0.4667
+  AICc                            —      6968.60
+
+  MGWR 的优势:
+    1. 每个变量独立带宽，捕捉多尺度空间异质性
+    2. R² 从 0.2057 提升至 0.5004
+    3. 不同变量的空间尺度差异揭示了不同过程的作用范围
+
+  带宽解读:
+    pop_density: 带宽小 (41, 1.3%) → 局部性影响，空间异质性强
+    agriculture_share: 带宽小 (41, 1.3%) → 局部性影响，空间异质性强
+    mining_share: 带宽中 (1499, 49.0%) → 区域性影响
+    construction_share: 带宽中 (1495, 48.9%) → 区域性影响
+    manufacturing_share: 带宽小 (47, 1.5%) → 局部性影响，空间异质性强
+    finance_share: 带宽小 (41, 1.3%) → 局部性影响，空间异质性强
+    services_share: 带宽中 (1476, 48.3%) → 区域性影响
+    government_share: 带宽小 (41, 1.3%) → 局部性影响，空间异质性强
+
+============================================================
+分析总结
+============================================================
+1. MGWR R² (0.5004) > OLS R² (0.2057)，说明考虑空间异质性后模型拟合改善。
+2. 本次使用全部 8 个数值型自变量: pop_density, agriculture_share, mining_share, construction_share, manufacturing_share, finance_share, services_share, government_share。
+3. 各变量带宽差异如下，带宽越小表示作用越局部、空间异质性越强:
+   · pop_density: BW=41 (1.3%)
+   · agriculture_share: BW=41 (1.3%)
+   · mining_share: BW=1499 (49.0%)
+   · construction_share: BW=1495 (48.9%)
+   · manufacturing_share: BW=47 (1.5%)
+   · finance_share: BW=41 (1.3%)
+   · services_share: BW=1476 (48.3%)
+   · government_share: BW=41 (1.3%)
+4. MGWR 能展示每个变量在不同县域的局部系数差异，但仍不能替代空间误差/空间滞后模型对空间自相关的检验。
+============================================================
+分析完成！共生成 7 张结果图（output_01 ~ output_07.png）
+============================================================
